@@ -43,5 +43,3 @@
 -Dans ARC on fait une suppression avec la methode Delete et met l'URL
 -dans l'application de demarrage  on cree un objet d type RepositoryRestconfiguration
 -pour faire des projection oncree une interface EtudiantProjection dans le meme package
--on tape l'url :8080/etudiants
--ón tape :8080/etudiants/?projection=p1

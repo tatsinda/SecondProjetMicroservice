@@ -41,7 +41,3 @@
 -dans ARC on envoi une rquette post pour cree un etudiant:methode POST;dans l'url:8080:/etudiants; dans le body:{"nom":"Issam","prenom":"Issa","formation":"http://localhost:8080/formations/1"} puis on envoi la requette
 -dans ARC on fait un update avec l methode PATCH, URL: 8080:/etudiants/5; Body:{"dateNaissance":"1990-11-11"
 -Dans ARC on fait une suppression avec la methode Delete et met l'URL
--dans l'application de demarrage  on cree un objet d type RepositoryRestconfiguration
--pour faire des projection oncree une interface EtudiantProjection dans le meme package
--on tape l'url :8080/etudiants
--ón tape :8080/etudiants/?projection=p1
