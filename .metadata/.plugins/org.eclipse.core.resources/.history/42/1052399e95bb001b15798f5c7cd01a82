@@ -7,5 +7,5 @@ import org.springframework.data.rest.core.config.Projection;
 public interface EtudiantProjection {
 
 	public String getNom();
-	public Formation getFormation();
+	public String getFormation();
 }

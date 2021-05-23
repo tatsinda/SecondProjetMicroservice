@@ -58,7 +58,7 @@ public class Etudiant {
 	}
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
-	} 
+	}
 	public Date getDateNaissance() {
 		return dateNaissance;
 	}

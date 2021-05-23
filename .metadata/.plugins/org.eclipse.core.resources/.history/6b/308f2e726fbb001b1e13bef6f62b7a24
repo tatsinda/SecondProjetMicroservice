@@ -58,18 +58,11 @@ public class Etudiant {
 	}
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
-	} 
+	}
 	public Date getDateNaissance() {
 		return dateNaissance;
 	}
 	public void setDateNaissance(Date dateNaissance) {
 		this.dateNaissance = dateNaissance;
 	}
-	public Formation getFormation() {
-		return formation;
-	}
-	public void setFormation(Formation formation) {
-		this.formation = formation;
-	}
-	
 }
