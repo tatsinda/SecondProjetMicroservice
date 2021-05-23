@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,14 +24,19 @@ public class Etudiant {
 	private String prenom;
 	private Date dateNaissance;
 	
-	public Etudiant(Long id, String nom, String prenom, Date dateNaissance) {
+	@ManyToOne //association et une telle association cree une cle etrangere formationId dans la table etudiant
+	private Formation formation; //attribut reprentant un etudiint dans une formation
+	
+	
+	
+	public Etudiant(Long id, String nom, String prenom, Date dateNaissance, Formation formation) {
 		super();
 		this.id = id;
 		this.nom = nom;
 		this.prenom = prenom;
 		this.dateNaissance = dateNaissance;
+		this.formation = formation;
 	}
-	
 	public Etudiant()
 	{
 		

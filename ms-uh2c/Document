@@ -18,3 +18,15 @@
 -on puis on demarre l'application
 -on tape l'url: localhost:8080/h2-console pour voir les donnees entrees dans la BD
 -on tape l'url: localhost:8080/etudiants pour consuletr le web service
+-on tape: localhost:8080/etudiants?size=2&page=1, localhost:8080/etudiants?size=2&page=2
+
+****************
+-dans le package org.sid on cree la classe Formation
+-on ajoute l'association  entre l'etudiant et la formation, une formation contient ne collection 'etudiant
+-on met l'onnotation @OneToMany dans la classe Formation
+-dans la table etudiant on ajoute un attribut de type Formation et une relation @ManyToOne
+-dans le meme package on cree une interface FormtionRepository
+-dans l'appliation de demarrage  on cree un objet d type FormationRepository
+-on ajoute @Autowired
+-dans l'application de demarrage on cree des formation et on les ajoutes aux etudiants
+-dans le fichier application.proprties du projet on change la valeur du de la proprite spring.jpa.hibernate.ddl-auto en create parceque un nouveau champs a ete jouter dans la table etudiant 
