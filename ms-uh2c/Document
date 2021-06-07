@@ -45,3 +45,15 @@
 -pour faire des projection oncree une interface EtudiantProjection dans le meme package
 -on tape l'url :8080/etudiants
 -ón tape :8080/etudiants/?projection=p1
+
+
+***********************Creation de la partie FrontEnd du projet dans le dossier FronfEnf,fichier ms-front-end********************
+-installation de nodeJs
+-installation de angularJs
+-creation du projet angular: ms-font-end
+
+
+-dans linterface FormationRepository on autorise a un domaine externe d'acceder au WEB SERVICE fORMATION: annotation @CrossOrigin("*") 
+-dans l'etape precedenate effacer l'annotation inserer
+-on cree une classe : GlobalrepositoryRestConfigurer et on autorise l'accession au restservice
+-

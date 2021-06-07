@@ -28,11 +28,11 @@ public class MsUh2cApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		repositoryRestConfiguration.exposeIdsFor(Formation.class,Etudiant.class); //on expose ls id ds entites
-		
+	
 		
 		Formation f1=formationRepository.save(new Formation(null,"PHP",30,null));
-		Formation f2=formationRepository.save(new Formation(null,"Java",30,null));
-		Formation f3=formationRepository.save(new Formation(null,"Oracle",30,null));
+		Formation f2=formationRepository.save(new Formation(null,"Java",10,null));
+		Formation f3=formationRepository.save(new Formation(null,"Oracle",87,null));
 
 		//enregistrement des donnees dans la base de donnee
 		etudiantRepository.save(new Etudiant(null,"blanc","leroy",new Date(),f1));

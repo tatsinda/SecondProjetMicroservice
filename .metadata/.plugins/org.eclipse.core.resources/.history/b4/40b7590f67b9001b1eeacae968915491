@@ -1,9 +1,0 @@
-****************Modele de Microservice Multiconteneur*******************
--on cree un project spring: ms-uh2c avec les dependance: jpa,rstRepository,devtools,mysqldriver,lombook,spring web
--on cree la classe Etudiant dans le package org.sid
--on ajoute les attributs a la classe etudiant
--au met l'annotation @Entity
--on met l'annoation @GeneratedValue
--on consulte le site lombook pour voir comment l'ituliser dans eclipse*
--on met l'annoation @Data et autre lombok
--
